@@ -47,7 +47,7 @@ app.get('/hi',function(req,res){
 app.get('/',function(req,res){
 
 
-	console.log('successs' + require.body);
+	console.log('successs' + req.body);
 
 	res.send(["sda","sda",".asdad",1,2])
 })
