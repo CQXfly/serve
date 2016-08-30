@@ -10,9 +10,9 @@ var user = require('./models/test').user
 
 // app use
 
-// var dburl = "mongodb://localhost:27017/qx"; //打开数据库
+var dburl = "mongodb://localhost:27017/qx"; //打开数据库
 
-var dburl = "mongodb://120.27.93.13:27017/qx"
+// var dburl = "mongodb://120.27.93.13:27017/qx"
 mongoose.connect(dburl,function(err,db){
 
 	console.log("数据库打开成功 " + err + db)
