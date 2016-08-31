@@ -49,7 +49,7 @@ app.get('/hi',function(req,res){
 app.get('/',function(req,res){
 
 
-	console.log('successs' + req.body);
+	console.log('successs' + req.query);
 
 	res.send(["sda","sda",".asdad",1,2])
 })
